@@ -1,0 +1,12 @@
+//to print aditya in while loop
+#include<stdio.h>
+int main()
+{
+	int i=1;
+	while(i<=10)
+	{
+		printf("Aditya");
+		i++;
+	}
+	return 0;
+}
