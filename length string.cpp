@@ -1,0 +1,16 @@
+//to write the c program of length string
+#include<stdio.h>
+int main()
+{
+	char str[100];
+	int length, i;
+	printf("\n enter the string");
+	gets(str);
+	length=0;
+	for(i=0;str[i]!='\0';i++)
+	{
+		length++;
+	}
+	printf("length of the string is:%d", length);
+	return 0;
+}
